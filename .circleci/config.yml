@@ -34,7 +34,7 @@ workflows:
       - deploy_to_test:
           filters:
             branches:
-              only: feature/0-Hackathon
+              only: develop
       - deploy_to_prod:
           filters:
             branches:
